@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.base-container{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: calc(100vh - 60px);
+}
+
+.header{
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.btn-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 20%;
+}
+
+.json-display-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.json-display{
+  background: #000;
+  color: #fff;
+  margin-top: 5px;
+  max-width: 75%;
+}
+
+button{
+  background: transparent;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+/* below mentioned custom style for uploader button */
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 156px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 30px 0;
+  cursor: pointer;
+}
